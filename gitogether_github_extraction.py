@@ -91,7 +91,7 @@ username = input("Username: ")
 
 json_data = get_master(username)
 
-with open('%s.json'%username, 'w') as outfile:
+with open('%s.rah'%username, 'w') as outfile:
     json.dump(json_data, outfile)
 
 #pprint.pprint(get_langs(get_repos('henrytwo')))
